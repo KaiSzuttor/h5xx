@@ -10,7 +10,7 @@ jobs:
     steps:
     - name: Install hdf5
       run: |
-        apt-get update && apt-get install libhdf5-openmpi-dev 
+        sudo apt-get update && sudo apt-get install libhdf5-openmpi-dev 
     - uses: actions/checkout@master
     - name: Configure
       run: |

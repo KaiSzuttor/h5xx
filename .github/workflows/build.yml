@@ -18,7 +18,7 @@ jobs:
       env:
         BOOST_ROOT: ${BOOST_ROOT_1_72_0}
         BOOST_INCLUDEDIR: "${BOOST_ROOT_1_72_0}/boost/include"
-        BOOST_LIBRARYDIR: "${BOOST_ROOT_1_72_0}\lib"
+        BOOST_LIBRARYDIR: "${BOOST_ROOT_1_72_0}/lib"
     - name: Build
       working-directory: build
       run: |
